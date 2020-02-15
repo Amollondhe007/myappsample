@@ -26,6 +26,30 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         app.js
 
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git init
+Reinitialized existing Git repository in D:/Git/myapp/.git/
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git config --global user.name "Amol Londhe"
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git config --global user.email "Amollondhe007@gmail.com"
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$
+
+
 
 Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
 $ git rm --cached index.html
