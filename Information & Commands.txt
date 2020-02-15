@@ -102,3 +102,22 @@ rm 'index.html'
 
 Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
 $
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (login)
+$ git checkout master
+Switched to branch 'master'
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git merge login
+Merge made by the 'recursive' strategy.
+ login.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 login.html
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$
