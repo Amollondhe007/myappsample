@@ -1,0 +1,80 @@
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git init
+Reinitialized existing Git repository in D:/Git/myapp/.git/
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git config user.name "Amol Londhe"
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git config user.email "Amollondhe007@gmail.com"
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git add index.html
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git rm --cached index.html
+error: the following file has staged content different from both the
+file and the HEAD:
+    index.html
+(use -f to force removal)
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git restore index.html
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$ git rm --cached index.html
+rm 'index.html'
+
+Admin@DESKTOP-PPN06KP MINGW64 /d/Git/myapp (master)
+$
